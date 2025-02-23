@@ -1,14 +1,28 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./app.vue",
     "./components/**/*.{vue,js,ts}",
     "./layouts/**/*.{vue,js,ts}",
     "./pages/**/*.{vue,js,ts}",
     "./plugins/**/*.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#576238",
+        secondary: "#8C834D",
+        accent: "#FFD85D",
+        background: "#F0EADB",
+        text: {
+          primary: "#343B22",
+          secondary: "#2C323F",
+        },
+      },
+      typography: {
+        heading: ["Playfair Display", "serif"],
+        body: ["Montserrat", "sans-serif"],
+      }
+    },
   },
   plugins: [],
 };
