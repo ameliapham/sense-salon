@@ -1,11 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Header from "~/components/Header.vue";
+import Footer from "~/components/Footer.vue";
+</script>
 
 <template>
-  <div class="flex items-center justify-center bg-blue-500 p-4 text-white">
-    Helloooooo
+  <div class="flex min-h-screen flex-col">
+    <Header />
+    <main class="flex flex-1 items-center justify-center font-heading text-2xl text-primary">Hello World</main>
+    <Footer />
   </div>
 </template>
-
-<style>
-@import "~/assets/css/tailwind.css";
-</style>
