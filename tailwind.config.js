@@ -18,5 +18,20 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addBase }) {
+      addBase({
+        "h4, h5, h6, p, a, ul, ol, li": {
+          fontFamily: "Montserrat, sans-serif",
+        },
+        "h1, h2": {
+          fontFamily: "Playfair Display, serif",
+        },
+        "h3": {
+          fontFamily: "Montserrat, sans-serif",
+          textTransform: "uppercase",
+        },
+      });
+    },
+  ],
 };

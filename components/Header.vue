@@ -13,16 +13,16 @@ import Logo from "~/assets/svg/logo.svg";
       <nav class="flex items-center">
         <ul class="flex flex-row items-center gap-8">
           <li>
-            <NuxtLink to="/about" class="font-body text-textAccent text-sm uppercase border-b border-transparent hover:border-textAccent pb-1 transition delay-150 duration-300">About Us</NuxtLink>
+            <NuxtLink to="/about" class="text-textAccent text-sm uppercase border-b border-transparent hover:border-textAccent pb-1 transition delay-150 duration-300">About Us</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" class="font-body text-textAccent text-sm uppercase border-b border-transparent hover:border-textAccent pb-1 transition delay-150 duration-300">Our Service</NuxtLink>
+            <NuxtLink to="/about" class="text-textAccent text-sm uppercase border-b border-transparent hover:border-textAccent pb-1 transition delay-150 duration-300">Our Service</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" class="font-body text-textAccent text-sm uppercase border-b border-transparent hover:border-textAccent pb-1 transition delay-150 duration-300">Our Works</NuxtLink>
+            <NuxtLink to="/about" class="text-textAccent text-sm uppercase border-b border-transparent hover:border-textAccent pb-1 transition delay-150 duration-300">Our Works</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" class="font-body text-textAccent text-sm uppercase border-b border-transparent hover:border-textAccent pb-1 transition delay-150 duration-300">Contact Us</NuxtLink>
+            <NuxtLink to="/about" class="text-textAccent text-sm uppercase border-b border-transparent hover:border-textAccent pb-1 transition delay-150 duration-300">Contact Us</NuxtLink>
           </li>
         </ul>
       </nav>
