@@ -18,7 +18,7 @@ export default {
           secondary: "#2C323F",
         },
       },
-      typography: {
+      fontFamily: {
         heading: ["Playfair Display", "serif"],
         body: ["Montserrat", "sans-serif"],
       }
