@@ -1,6 +1,12 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./components/**/*.{vue,js,ts}", "./layouts/**/*.{vue,js,ts}", "./pages/**/*.{vue,js,ts}", "./plugins/**/*.{js,ts}"],
+import type { Config } from "tailwindcss";
+
+
+const config: Config ={
+  content: [
+    "./components/**/*.{vue,js,ts}", 
+    "./layouts/**/*.{vue,js,ts}", "./pages/**/*.{vue,js,ts}", 
+    "./plugins/**/*.{js,ts}"
+  ],
   theme: {
     extend: {
       colors: {
@@ -19,7 +25,7 @@ export default {
     },
   },
   plugins: [
-    function ({ addBase }) {
+    function ({ addBase } : { addBase: (styles: Record<string, any>) => void }) {
       addBase({
         "h4, h5, h6, p, a, ul, ol, li": {
           fontFamily: "Montserrat, sans-serif",
@@ -35,3 +41,5 @@ export default {
     },
   ],
 };
+
+export default config
