@@ -1,14 +1,11 @@
-<script setup lang="ts">
-import Header from "~/components/Header.vue";
-import Footer from "~/components/Footer.vue";
-import Button from "~/components/Button.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="flex min-h-screen flex-col bg-background">
     <Header />
-    <main class="flex flex-col">
+    <main class="flex flex-col gap-40 pb-40">
       <HeroSection />
+      <About />
     </main>
     <Footer />
   </div>
