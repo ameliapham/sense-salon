@@ -29,11 +29,11 @@ const config: Config = {
         },
         h1: {
           fontFamily: "theme('fontFamily.serif')",
-          fontSize: "theme('fontSize.4xl')",
+          fontSize: "theme('fontSize.5xl')",
         },
         h3: {
           fontFamily: "theme('fontFamily.sansSerif')",
-          fontSize: "theme('fontSize.2xl')",
+          fontSize: "theme('fontSize.base')",
           textTransform: "uppercase",
         },
         p: {

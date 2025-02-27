@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <footer class="bg-primary text-textAccent z-30 w-full">
+  <footer class="bg-primary text-textAccent w-full">
     <div class="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8">
-      <h1 class="text-accent text-5xl">Contact</h1>
+      <h1 class="text-accent">Contact</h1>
 
       <div class="flex flex-row gap-24">
         <div class="flex flex-col gap-4">
