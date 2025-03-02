@@ -6,7 +6,7 @@
     <div class="grid max-h-[800px] min-w-[40%] max-w-[700px] grid-cols-[1fr_2fr_1fr] grid-rows-[1fr_5fr_1fr]">
       <div class="col-start-1 col-end-3 row-start-1 row-end-4 h-full rounded-bl-[160px] bg-primary"></div>
       <div class="col-start-2 col-end-4 row-start-2 row-end-3 overflow-hidden rounded-bl-[160px]">
-        <img src="/assets/images/heroImage.webp" alt="hero image" class="h-full w-full object-cover" />
+        <img src="/assets/images/about.webp" alt="about us" class="h-full w-full object-cover" />
       </div>
     </div>
 

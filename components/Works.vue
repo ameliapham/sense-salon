@@ -9,7 +9,7 @@
       <div class="rounded-tr-[160px] overflow-hidden mb-5
                 col-start-1 col-end-4 
                 row-start-2 row-end-5">
-        <img src="/assets/images/heroImage.webp" alt="hero image" class="h-full w-full object-cover" />
+        <img src="/assets/images/work1.webp" alt="work 1" class="h-full w-full object-cover" />
       </div>
       <div class="rounded-br-[160px] m-5 bg-primary
                 col-start-4 col-end-7 
@@ -18,7 +18,7 @@
         <div class="rounded-tr-[160px] overflow-hidden mr-5
                     col-start-6 col-end-9
                     row-start-1 row-end-4">
-            <img src="/assets/images/heroImage.webp" alt="hero image" class="h-full w-full object-cover" />
+            <img src="/assets/images/work2.webp" alt="work 2" class="h-full w-full object-cover" />
         </div>
         <div class="rounded-tl-[160px] bg-primary
                 col-start-9 col-end-10
@@ -27,7 +27,7 @@
         <div class="rounded-bl-[160px] overflow-hidden mt-5
                     col-start-7 col-end-11
                     row-start-4 row-end-7">
-            <img src="/assets/images/heroImage.webp" alt="hero image" class="h-full w-full object-cover" />
+            <img src="/assets/images/work3.webp" alt="work 3" class="h-full w-full object-cover" />
         </div>
         <div class="rounded-bl-[160px] bg-accent
                 col-start-2 col-end-3
@@ -36,7 +36,7 @@
         <div class="rounded-br-[160px] overflow-hidden ml-5
                     col-start-3 col-end-6
                     row-start-5 row-end-8">
-            <img src="/assets/images/heroImage.webp" alt="hero image" class="h-full w-full object-cover" />
+            <img src="/assets/images/work4.webp" alt="work 4" class="h-full w-full object-cover" />
         </div>
     </div>
     <div class="flex justify-end">

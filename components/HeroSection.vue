@@ -11,7 +11,7 @@
 
     <!-- Right side -->
     <div class="col-start-2 col-end-3 row-start-4 row-end-6 overflow-hidden rounded-tl-[100px]">
-      <img src="/assets/images/heroImage.webp" alt="hero image" class="h-full w-full object-cover" />
+      <img src="/assets/images/heroImage2.webp" alt="hero image" class="h-full w-full object-cover" />
     </div>
 
     <div class="col-start-4 col-end-6 row-start-1 row-end-6 overflow-hidden rounded-tl-[260px]">
