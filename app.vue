@@ -6,6 +6,7 @@
     <main class="flex flex-col gap-40 pb-40">
       <HeroSection />
       <About />
+      <Works />
     </main>
     <Footer />
   </div>
