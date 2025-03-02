@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <footer class="bg-primary text-textAccent w-full">
+  <footer class="w-full bg-primary text-textAccent">
     <div class="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8">
       <h1 class="text-accent">Contact</h1>
 

@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="flex max-h-[850px] w-full flex-row items-center gap-[10%] pl-20 justify-end">
+  <div class="flex max-h-[850px] w-full flex-row items-center justify-end gap-[10%] pl-20">
     <!-- Left side -->
     <section class="flex max-w-[700px] flex-col gap-4">
       <h1 class="text-primary">Newsletter</h1>
