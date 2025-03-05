@@ -30,9 +30,9 @@
         <div className="border-t border-background grow" />
       </div>
 
-      <div class="flex flex-row justify-between text-xs">
-        <p>© 2025 Amélia Pham. All rights reserved.</p>
-        <p>Pictures were taken from https://fr.pinterest.com/ for educational purposes</p>
+      <div class="flex flex-row justify-between">
+        <p class="text-xs">© 2025 Amélia Pham. All rights reserved.</p>
+        <p class="text-xs">Pictures were taken from https://fr.pinterest.com/ for educational purposes</p>
       </div>
     </div>
   </footer>
