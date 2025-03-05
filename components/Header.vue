@@ -4,7 +4,7 @@ import Logo from "~/assets/svg/logo.svg";
 
 <template>
   <header class="z-30 w-full bg-primary">
-    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
+    <div class="mx-20 flex h-16 items-center justify-between">
       <NuxtLink to="/" class="flex items-center">
         <Logo class="h-full w-full" />
       </NuxtLink>
