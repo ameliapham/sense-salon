@@ -7,6 +7,7 @@
       <HeroSection />
       <About />
       <Works />
+      <Carousel />
       <Newsletter />
     </main>
     <Footer />
