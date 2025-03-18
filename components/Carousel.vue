@@ -72,6 +72,7 @@ const services = ref([
 
 :deep(.swiper-pagination) {
   position: relative;
-
+  bottom: 0;
+  margin-top: 20px;
 }
 </style>
