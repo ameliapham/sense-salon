@@ -20,24 +20,58 @@ const services = ref([
 </script>
 
 <template>
-  <div class="flex flex-col px-20">
+  <div class="flex flex-col gap-4 px-20">
     <h1 class="text-primary">Our Services</h1>
-    <div class="mx-auto w-full">
-      <Swiper 
+    <div class="w-full">
+      <Swiper
         :modules="[Pagination, Navigation, Autoplay]"
-        :slides-per-view="4" 
-        :space-between="20" 
-        :loop="true" :pagination="{ clickable: true }" 
-        :navigation="true" 
-        :autoplay="{ delay: 3000 }" class="w-full">
-            <SwiperSlide v-for="(service, index) in services" :key="index">
-                <div class="rounded-lg p-6 text-center shadow-lg">
-                <img src="/assets/images/work2.webp" alt="work 2" class="object-cover" />
-                <h3 class="text-lg font-bold">{{ service.title }}</h3>
-                <p class="text-gray-600">{{ service.description }}</p>
+        :slides-per-view="3"
+        :space-between="20"
+        :loop="true"
+        :pagination="{ clickable: true }"
+        :navigation="false"
+        :autoplay="{ delay: 3000 }"
+        class="w-full flex flex-col gap-4 overflow-hidden"
+        :breakpoints="{
+          640: { slidesPerView: 2 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 4 },
+        }"
+      >
+        <SwiperSlide v-for="(service, index) in services" :key="index">
+          <div class="flex  min-h-[500px] flex-col justify-between rounded-[20px] bg-[#FEF8E8] pb-6">
+            <div class="flex flex-col gap-4">
+              <img src="/assets/images/work2.webp" alt="work 2" class="h-[220px] rounded-t-[20px] object-cover" />
+              <div class="flex flex-col gap-4 p-6">
+                <h3 class="font-bold text-primary">{{ service.title }}</h3>
+                <p class="">{{ service.description }}</p>
+              </div>
             </div>
-            </SwiperSlide>
+            <div class="px-6">
+              <Button label="See more" to="/"></Button>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   </div>
 </template>
+
+<style scoped>
+:deep(.swiper-pagination-bullet) {
+  background-color: #576238;
+  width: 10px;
+  height: 10px;
+  opacity: 0.2;
+}
+
+:deep(.swiper-pagination-bullet-active) {
+  background-color: #576238;
+  opacity: 1;
+}
+
+:deep(.swiper-pagination) {
+  position: relative;
+
+}
+</style>
